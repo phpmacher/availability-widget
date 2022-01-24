@@ -8,6 +8,8 @@ The Availability-Widget allows you to create [Scriptable](https://scriptable.app
 
 Each widget can be given the SKU (stock keeping unit) of a product whose availability is to be displayed on the smartphone.
 
+**Please note:** Product numbers do not work. It has to be a SKU.
+
 In addition, a name for the display can be defined for the respective SKU.
 
 
@@ -40,7 +42,7 @@ This bookmarklet extracts the data and then displays this data at the top of the
 
 ![sku-Bookmarklet](images/bookmarklet-output.png)
 
-Here is the bookmarklet: [DecathlonSKUs](DecathlonBookmarklet.js) / [DecathlonSKUs-minified](DecathlonBookmarklet.min.js)
+Here is the bookmarklet: [DecathlonSKUs](bookmarklet.js) / [DecathlonSKUs-minified](bookmarklet.min.js)
 
 (Minified with the service of: https://neurotechnics.com/tools/jsmin )
 
