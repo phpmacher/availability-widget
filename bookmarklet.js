@@ -9,8 +9,7 @@ javascript: (function () {
     oDiv.setAttribute("class", "topbar");
     oDiv.setAttribute("style", "color:#000000; text-align:center;");
 
-    models = JSON.parse(document.getElementById("__dkt").innerHTML.trim())._ctx
-        .data[4].data.models;
+    models = __DKT._ctx.data[4].data.models;
 
     var text = "";
     models.forEach(function (model) {
